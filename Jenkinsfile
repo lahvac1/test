@@ -1,7 +1,7 @@
 pipeline {
     agent any
     stages {
-        stage ('Build') {
+        stage ('Buildd') {
             steps {
                 python3 test.py
             }
